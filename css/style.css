@@ -1,0 +1,138 @@
+body{
+    background-color: hsl(257, 40%, 49%);
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 0.93rem;
+}
+
+.header{
+    padding: 50px 100px;
+}
+.logo{
+    width: 200px;
+}
+
+.container {
+    width: 1440px;
+    display: flex;
+    margin: 30px 75px;
+    color: #fff;
+}
+
+.bg-desktop-img {
+    z-index: -100;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.sub-container{
+    z-index: 100;
+    padding: 20px 30px ;
+}
+
+.title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2.5rem;
+}
+
+.social{
+    position: absolute;
+    right: 120px;
+}
+.social-icon{
+    margin-top: 10px;
+}
+
+.icon-box{
+    display: inline-block;
+    border: 2px solid #fff;
+    text-align: center;
+    border-radius: 100%;
+    width: 30px;
+    height: 30px;   
+}
+
+.reg-btn{
+    padding: 20px;
+    border-radius: 50px;
+    width: 40%;
+    color: hsl(257, 40%, 49%);
+    font-size: 16px;
+    box-shadow: 1px 1px 1px gray;
+    cursor: pointer;
+}
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media (max-width:375px){
+body{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+.bg-desktop-img {
+    z-index: -100;
+    position: absolute;
+    width:100%;
+    height: 70%;
+    transform: rotate(-40deg);
+    bottom: 500px;
+    
+
+    
+}
+.header{
+    padding: 50px 40px;
+    text-align: left;
+    width: 100%;
+}
+ .container{
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+ }
+ .sub-container{
+    padding: 0;
+    margin: 40px;
+    line-height: 2;
+    font-size: 17px;
+ }
+
+ .mockup{
+     margin-top: 20px;
+     width: 80%;
+     padding: 0;
+
+ }
+
+ .title{
+     font-size: 1.6rem;
+ }
+
+ .attribution{
+    width: 80%;
+    text-align: center;
+    margin-left: 80px;
+ }
+ .attribution a{
+    width: 80%;
+    text-align: center;
+    
+ }
+ .reg-btn{
+     width: 80%;
+     margin: 40px 20px;
+ }
+
+
+.social-icon{
+    margin: 5px;
+}
+}
